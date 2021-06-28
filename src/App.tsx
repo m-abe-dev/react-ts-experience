@@ -1,6 +1,10 @@
-import React from 'react';
-import { Counter } from "./Counter"
+import React from "react";
+import CounterWithReducer from "./CountryWithReducer";
 
 export default () => {
-  return <div><Counter /></div>;
+  return (
+    <div>
+      <CounterWithReducer />
+    </div>
+  );
 };
